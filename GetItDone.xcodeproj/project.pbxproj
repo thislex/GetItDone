@@ -17,9 +17,47 @@
 		7F0ED81F2AFCFD58002E9D15 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F0ED81C2AFCFD58002E9D15 /* sound-tap.mp3 */; };
 		7F0ED8202AFCFD58002E9D15 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F0ED81D2AFCFD58002E9D15 /* sound-ding.mp3 */; };
 		7F0ED82D2AFD0B55002E9D15 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0ED82C2AFD0B55002E9D15 /* Constant.swift */; };
+		7F2AC71F2B04C3120035EFD5 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AC71E2B04C3120035EFD5 /* SoundPlayer.swift */; };
+		7F2AC7272B04C7550035EFD5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2AC7262B04C7550035EFD5 /* WidgetKit.framework */; };
+		7F2AC7292B04C7550035EFD5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2AC7282B04C7550035EFD5 /* SwiftUI.framework */; };
+		7F2AC72C2B04C7550035EFD5 /* GetItDoneWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AC72B2B04C7550035EFD5 /* GetItDoneWidgetBundle.swift */; };
+		7F2AC72E2B04C7550035EFD5 /* GetItDoneWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AC72D2B04C7550035EFD5 /* GetItDoneWidgetLiveActivity.swift */; };
+		7F2AC7302B04C7550035EFD5 /* GetItDoneWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AC72F2B04C7550035EFD5 /* GetItDoneWidget.swift */; };
+		7F2AC7322B04C7560035EFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2AC7312B04C7560035EFD5 /* Assets.xcassets */; };
+		7F2AC7362B04C7560035EFD5 /* GetItDoneWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7F2AC7242B04C7550035EFD5 /* GetItDoneWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F2AC73B2B04CE430035EFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0ED80C2AFCFCC6002E9D15 /* Assets.xcassets */; };
+		7F2AC73C2B04CF6A0035EFD5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0ED82C2AFD0B55002E9D15 /* Constant.swift */; };
 		7F3042A92B0370C300CDF2C1 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3042A82B0370C300CDF2C1 /* HideKeyboardExtension.swift */; };
 		7FC48D3F2B037EF0005A76DC /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC48D3E2B037EF0005A76DC /* BackgroundImageView.swift */; };
+		7FC48D412B0380A3005A76DC /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC48D402B0380A3005A76DC /* NewTaskItemView.swift */; };
+		7FC48D432B0387FF005A76DC /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC48D422B0387FF005A76DC /* BlankView.swift */; };
+		7FC48D452B0392BE005A76DC /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC48D442B0392BE005A76DC /* ListRowItemView.swift */; };
+		7FC48D472B03A002005A76DC /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC48D462B03A002005A76DC /* CheckBoxStyle.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F2AC7342B04C7560035EFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F0ED7FD2AFCFCC5002E9D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2AC7232B04C7550035EFD5;
+			remoteInfo = GetItDoneWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F2AC73A2B04C7560035EFD5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F2AC7362B04C7560035EFD5 /* GetItDoneWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7F0ED8052AFCFCC5002E9D15 /* GetItDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,8 +72,21 @@
 		7F0ED81D2AFCFD58002E9D15 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		7F0ED8272AFCFE8B002E9D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F0ED82C2AFD0B55002E9D15 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = GetItDone/Constant.swift; sourceTree = SOURCE_ROOT; };
+		7F2AC71E2B04C3120035EFD5 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = GetItDone/View/SoundPlayer.swift; sourceTree = SOURCE_ROOT; };
+		7F2AC7242B04C7550035EFD5 /* GetItDoneWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GetItDoneWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2AC7262B04C7550035EFD5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7F2AC7282B04C7550035EFD5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7F2AC72B2B04C7550035EFD5 /* GetItDoneWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneWidgetBundle.swift; sourceTree = "<group>"; };
+		7F2AC72D2B04C7550035EFD5 /* GetItDoneWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		7F2AC72F2B04C7550035EFD5 /* GetItDoneWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneWidget.swift; sourceTree = "<group>"; };
+		7F2AC7312B04C7560035EFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2AC7332B04C7560035EFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F3042A82B0370C300CDF2C1 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HideKeyboardExtension.swift; path = GetItDone/View/HideKeyboardExtension.swift; sourceTree = SOURCE_ROOT; };
 		7FC48D3E2B037EF0005A76DC /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		7FC48D402B0380A3005A76DC /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		7FC48D422B0387FF005A76DC /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		7FC48D442B0392BE005A76DC /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		7FC48D462B03A002005A76DC /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckBoxStyle.swift; path = GetItDone/View/CheckBoxStyle.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +97,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F2AC7212B04C7550035EFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2AC7292B04C7550035EFD5 /* SwiftUI.framework in Frameworks */,
+				7F2AC7272B04C7550035EFD5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				7F0ED8072AFCFCC5002E9D15 /* GetItDone */,
+				7F2AC72A2B04C7550035EFD5 /* GetItDoneWidget */,
+				7F2AC7252B04C7550035EFD5 /* Frameworks */,
 				7F0ED8062AFCFCC5002E9D15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				7F0ED8052AFCFCC5002E9D15 /* GetItDone.app */,
+				7F2AC7242B04C7550035EFD5 /* GetItDoneWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				7F0ED80A2AFCFCC5002E9D15 /* ContentView.swift */,
+				7FC48D442B0392BE005A76DC /* ListRowItemView.swift */,
+				7FC48D422B0387FF005A76DC /* BlankView.swift */,
+				7FC48D402B0380A3005A76DC /* NewTaskItemView.swift */,
 				7FC48D3E2B037EF0005A76DC /* BackgroundImageView.swift */,
 			);
 			path = View;
@@ -120,6 +186,7 @@
 		7F0ED8242AFCFD9B002E9D15 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7F2AC71E2B04C3120035EFD5 /* SoundPlayer.swift */,
 				7F0ED82C2AFD0B55002E9D15 /* Constant.swift */,
 			);
 			path = Utility;
@@ -137,8 +204,30 @@
 		7F0ED8262AFCFE13002E9D15 /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				7FC48D462B03A002005A76DC /* CheckBoxStyle.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		7F2AC7252B04C7550035EFD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F2AC7262B04C7550035EFD5 /* WidgetKit.framework */,
+				7F2AC7282B04C7550035EFD5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2AC72A2B04C7550035EFD5 /* GetItDoneWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7F2AC72B2B04C7550035EFD5 /* GetItDoneWidgetBundle.swift */,
+				7F2AC72D2B04C7550035EFD5 /* GetItDoneWidgetLiveActivity.swift */,
+				7F2AC72F2B04C7550035EFD5 /* GetItDoneWidget.swift */,
+				7F2AC7312B04C7560035EFD5 /* Assets.xcassets */,
+				7F2AC7332B04C7560035EFD5 /* Info.plist */,
+			);
+			path = GetItDoneWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,15 +240,34 @@
 				7F0ED8012AFCFCC5002E9D15 /* Sources */,
 				7F0ED8022AFCFCC5002E9D15 /* Frameworks */,
 				7F0ED8032AFCFCC5002E9D15 /* Resources */,
+				7F2AC73A2B04C7560035EFD5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7F2AC7352B04C7560035EFD5 /* PBXTargetDependency */,
 			);
 			name = GetItDone;
 			productName = GetItDone;
 			productReference = 7F0ED8052AFCFCC5002E9D15 /* GetItDone.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7F2AC7232B04C7550035EFD5 /* GetItDoneWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2AC7372B04C7560035EFD5 /* Build configuration list for PBXNativeTarget "GetItDoneWidgetExtension" */;
+			buildPhases = (
+				7F2AC7202B04C7550035EFD5 /* Sources */,
+				7F2AC7212B04C7550035EFD5 /* Frameworks */,
+				7F2AC7222B04C7550035EFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetItDoneWidgetExtension;
+			productName = GetItDoneWidgetExtension;
+			productReference = 7F2AC7242B04C7550035EFD5 /* GetItDoneWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -172,6 +280,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					7F0ED8042AFCFCC5002E9D15 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7F2AC7232B04C7550035EFD5 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -190,6 +301,7 @@
 			projectRoot = "";
 			targets = (
 				7F0ED8042AFCFCC5002E9D15 /* GetItDone */,
+				7F2AC7232B04C7550035EFD5 /* GetItDoneWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -207,6 +319,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F2AC7222B04C7550035EFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2AC73B2B04CE430035EFD5 /* Assets.xcassets in Resources */,
+				7F2AC7322B04C7560035EFD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,13 +339,37 @@
 				7FC48D3F2B037EF0005A76DC /* BackgroundImageView.swift in Sources */,
 				7F0ED8152AFCFCC6002E9D15 /* GetItDone.xcdatamodeld in Sources */,
 				7F3042A92B0370C300CDF2C1 /* HideKeyboardExtension.swift in Sources */,
+				7FC48D432B0387FF005A76DC /* BlankView.swift in Sources */,
 				7F0ED82D2AFD0B55002E9D15 /* Constant.swift in Sources */,
+				7FC48D452B0392BE005A76DC /* ListRowItemView.swift in Sources */,
 				7F0ED80B2AFCFCC5002E9D15 /* ContentView.swift in Sources */,
+				7FC48D472B03A002005A76DC /* CheckBoxStyle.swift in Sources */,
 				7F0ED8092AFCFCC5002E9D15 /* GetItDoneApp.swift in Sources */,
+				7F2AC71F2B04C3120035EFD5 /* SoundPlayer.swift in Sources */,
+				7FC48D412B0380A3005A76DC /* NewTaskItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2AC7202B04C7550035EFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2AC72E2B04C7550035EFD5 /* GetItDoneWidgetLiveActivity.swift in Sources */,
+				7F2AC7302B04C7550035EFD5 /* GetItDoneWidget.swift in Sources */,
+				7F2AC72C2B04C7550035EFD5 /* GetItDoneWidgetBundle.swift in Sources */,
+				7F2AC73C2B04CF6A0035EFD5 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2AC7352B04C7560035EFD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2AC7232B04C7550035EFD5 /* GetItDoneWidgetExtension */;
+			targetProxy = 7F2AC7342B04C7560035EFD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7F0ED8162AFCFCC6002E9D15 /* Debug */ = {
@@ -349,6 +494,7 @@
 		7F0ED8192AFCFCC6002E9D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +524,7 @@
 		7F0ED81A2AFCFCC6002E9D15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -404,6 +551,60 @@
 			};
 			name = Release;
 		};
+		7F2AC7382B04C7560035EFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPMT7DEL43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetItDoneWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GetItDoneWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tapawan.GetItDone.GetItDoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2AC7392B04C7560035EFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPMT7DEL43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetItDoneWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GetItDoneWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tapawan.GetItDone.GetItDoneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +622,15 @@
 			buildConfigurations = (
 				7F0ED8192AFCFCC6002E9D15 /* Debug */,
 				7F0ED81A2AFCFCC6002E9D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2AC7372B04C7560035EFD5 /* Build configuration list for PBXNativeTarget "GetItDoneWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2AC7382B04C7560035EFD5 /* Debug */,
+				7F2AC7392B04C7560035EFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
